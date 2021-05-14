@@ -34,6 +34,8 @@ client.on('message', message => {
         client.commands.get('remove').execute(message, args);
     } else if(command === 'activate'){
         client.commands.get('activate').execute(message, args);
+    } else if(command === 'deactivate'){
+        client.commands.get('deactivate').execute(message, args);
     } else {
         client.commands.get('default').execute(message, args);
     }

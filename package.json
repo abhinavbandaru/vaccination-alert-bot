@@ -1,0 +1,24 @@
+{
+  "name": "vaccine-alert-bot",
+  "version": "1.0.0",
+  "description": "This is a vaccination slot alert bot, it alerts you when the vaccine portal opens",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinavbandaru/vaccination-alert-bot.git"
+  },
+  "author": "Abhinav Bandaru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abhinavbandaru/vaccination-alert-bot/issues"
+  },
+  "homepage": "https://github.com/abhinavbandaru/vaccination-alert-bot#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "discord.js": "^12.5.3",
+    "mongoose": "^5.12.9"
+  }
+}

@@ -28,6 +28,12 @@ client.on('message', message => {
     const command  = args.shift().toLocaleLowerCase();
     if(command === 'register'){
         client.commands.get('register').execute(message, args);
+    } else if(command === 'help') {
+        client.commands.get('help').execute(message, client.commands);
+    } else if(command === 'remove'){
+        client.commands.get('remove').execute(message, args);
+    } else if(command === 'activate'){
+        client.commands.get('activate').execute(message, args);
     } else {
         client.commands.get('default').execute(message, args);
     }

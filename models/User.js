@@ -21,11 +21,8 @@ const UserSchema = new mongoose.Schema({
         default: false,
         required: true
     },
-    state: {
-        type: String
-    },
-    district: {
-        type: String
+    districtNo: {
+        type: 'String'
     }
 });
 

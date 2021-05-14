@@ -1,8 +1,7 @@
 const Discord = require('discord.js');
-
 const client  = new Discord.Client();
 
-
+const botToken = require('../VaccinationAlertBot/config/botToken.json')
 
 const prefix = '!'
 
@@ -34,4 +33,4 @@ client.on('message', message => {
     }
 });
 
-client.login('ODQyNzM4MDM1OTcxNTg4MDk2.YJ5q9Q.taDYos0FxnShTQrqWNGTTsdkebo')
+client.login(botToken.token);
